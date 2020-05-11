@@ -2,7 +2,7 @@ import random as r
 
 
 def main():
-    dice_roll = 2
+    dice_roll = int(input('How many dice would you like to roll: '))
     dice_sum = 0
     for i in range(0, dice_roll):
         roll = r.randint(1, 6)
