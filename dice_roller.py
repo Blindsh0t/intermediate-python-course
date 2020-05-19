@@ -8,9 +8,9 @@ def main():
         roll = r.randint(1, 6)
         dice_sum += roll
         if roll == 1:
-            print(f'You rolled a {roll}! Critical Fail')
+            print(f'You rolled a {roll}! Critical low')
         elif roll == 6:
-            print(f'You rolled a {roll}! Critical Success!')
+            print(f'You rolled a {roll}! High roll!')
         else:
             print(f'You rolled a {roll}')
     print(f'Your total is --> {dice_sum}')
